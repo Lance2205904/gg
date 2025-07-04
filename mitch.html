@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> PRMSU Nursing Course </title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #ffb6c1; 
+            color: #cc3366; 
+        }
+
+        header {
+            background-color: #ff69b4; 
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #d02090; 
+            margin-bottom: 15px;
+            border-bottom: 2px solid #d02090;
+            padding-bottom: 5px;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #fff0f5; 
+            flex: 1 1 300px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+
+        footer {
+            background-color: #ff69b4;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+
+        
+        @media(max-width: 768px) {
+            nav {
+                display: flex;
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 10px 0;
+            }
+
+            .cards {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PRMSU Nursing Course Program</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#curriculum">Curriculum</a>
+            <a href="#admission">Admission</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- About Section -->
+        <section id="about">
+            <h2>About the  PRMSU Nursing Course</h2>
+            <p>
+                Our Nursing Course is designed to prepare students for a rewarding career in healthcare. 
+                With comprehensive theoretical knowledge and practical skills, our program aims to equip graduates to provide compassionate and effective patient care.
+            </p>
+        </section>
+
+        <!-- Curriculum Section -->
+        <section id="curriculum">
+            <h2>Curriculum Highlights</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Fundamentals of Nursing</h3>
+                    <p>Introduction to nursing principles, ethics, and patient care fundamentals.</p>
+                </div>
+                <div class="card">
+                    <h3>Medical-Surgical Nursing</h3>
+                    <p>In-depth knowledge of care for patients with various medical conditions.</p>
+                </div>
+                <div class="card">
+                    <h3>Pediatric Nursing</h3>
+                    <p>Specialized care techniques for infants, children, and adolescents.</p>
+                </div>
+                <div class="card">
+                    <h3>Community Health</h3>
+                    <p>Focus on public health, prevention, and community-based care strategies.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Admission Section -->
+        <section id="admission">
+            <h2>Admission Process</h2>
+            <p>
+                To apply for our Nursing Course, prospective students should submit an application form along with academic transcripts and a statement of purpose. Entrance exams and interviews are part of the selection process.
+            </p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>For more information, please reach out:</p>
+            <ul>
+                <li>Email: info@PRMSUnursingcollege.com</li>
+                <li>Phone: +912365432</li>
+                <li>Address: IBA ZAMBALES</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 PRMSU Nursing College. All rights reserved.</p>
+    </footer>
+</body>
+</html>
